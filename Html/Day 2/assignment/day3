@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Practice Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            background: #ffffff;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 6px;
+        }
+        .product-card, .profile-card {
+            border: 1px solid #ccc;
+            padding: 15px;
+            width: 250px;
+            border-radius: 6px;
+            background: #fff;
+        }
+        .price {
+            color: green;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 1. About Me Webpage -->
+    <div class="container">
+        <h1>About Me</h1>
+        <p>Hello! I am learning HTML and web development.</p>
+        <p>I enjoy creating simple and clean web pages.</p>
+    </div>
+
+    <!-- 2. Three Sections: Home, About, Contact -->
+    <div class="container">
+        <h2>Home</h2>
+        <p>Welcome to my website. This is the home section.</p>
+    </div>
+
+    <div class="container">
+        <h2>About</h2>
+        <p>This section tells you more about who I am and what I do.</p>
+    </div>
+
+    <div class="container">
+        <h2>Contact</h2>
+        <p>Email: example@email.com</p>
+    </div>
+
+    <!-- 3. Small Blog Layout -->
+    <div class="container">
+        <h2>My Blog</h2>
+
+        <div>
+            <h3>Blog Post One</h3>
+            <p>This is my first blog post using HTML.</p>
+        </div>
+
+        <div>
+            <h3>Blog Post Two</h3>
+            <p>HTML block elements help structure content properly.</p>
+        </div>
+    </div>
+
+    <!-- 4. Product Card -->
+    <div class="product-card">
+        <h3>Wireless Headphones</h3>
+        <p>High quality sound with noise cancellation.</p>
+        <span class="price">₹2,999</span>
+    </div>
+
+    <br>
+
+    <!-- 5. Mini Profile Card (Nested Structure) -->
+    <div class="profile-card">
+        <div class="profile-info">
+            <h3>Vijay</h3>
+            <p>Web Developer</p>
+            <div class="profile-details">
+                <p>Location: India</p>
+                <p>Skills: HTML, CSS, JavaScript</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

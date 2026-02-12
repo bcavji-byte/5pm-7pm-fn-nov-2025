@@ -38,7 +38,7 @@ function App() {
       </vijay>
         
       <button>
-        children = {click me}
+        children = {onClick}
       </button>
   
 
